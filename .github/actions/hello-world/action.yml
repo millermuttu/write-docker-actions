@@ -1,7 +1,7 @@
-name: "we are calling the docker image from this action file"
+name: "my hello action"
 
-discription: " a docker image will be created to print hello world byt a trigger from workflow"
+description: "say hello with GitHub Actions"
 
 runs:
-  uses: "docker"
+  using: "docker"
   image: "Dockerfile"
