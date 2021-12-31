@@ -1,0 +1,7 @@
+name: "we are calling the docker image from this action file"
+
+discription: " a docker image will be created to print hello world byt a trigger from workflow"
+
+runs:
+  uses: "docker"
+  image: "Dockerfile"
